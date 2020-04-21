@@ -1,0 +1,42 @@
+main {
+    background-color: #1a1a1a;
+    height: 100%;
+
+    .container-dischi {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+
+        .card {
+            padding: 10px;
+            margin: 20px;
+            height: 400px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: black;
+            text-align: center;
+
+            h2 {
+                color: white;
+            }
+
+            h3,
+            span {
+                color: grey;
+            }
+
+            .copertina {
+                img {
+                    height: 180px;
+                    width: 180px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
+}

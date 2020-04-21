@@ -1,0 +1,83 @@
+/*RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*HEADER*/
+
+header {
+  height: 80px;
+  background-color: black;
+}
+
+header .container-top {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header .container-top .logo {
+  float: left;
+}
+
+header .container-top .logo img {
+  height: 60px;
+  margin-top: 10px;
+}
+
+/*MAIN*/
+
+main {
+  background-color: #1a1a1a;
+  height: 100%;
+}
+
+main .container-dischi {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+main .container-dischi .card {
+  padding: 10px;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+}
+
+main .container-dischi .card h2 {
+  color: white;
+}
+
+main .container-dischi .card h3,
+main .container-dischi .card span {
+  color: grey;
+}
+
+main .container-dischi .card .copertina img {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+/*FOOTER*/
+
